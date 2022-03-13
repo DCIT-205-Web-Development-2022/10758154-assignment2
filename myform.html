@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FORM -- 10758154</title>
+</head>
+
+<body style="background-color: springgreen;">
+
+    <!-- MY PROFILE -->
+
+    <div class="navbar">
+
+        <div class="container">
+
+            <div id="lg">
+                10758154
+            </div>
+
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education History</a></li>
+                    <li><a href="myform.html">My Form</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <h1>FORM</h1>
+
+    <section class="form">
+
+        <center>
+            <form style="text-align: left; " action="https://formsubmit.co/oj-studiolive@gmail.com" method="POST">
+                <label for="name">Name</label>
+                <input
+                    style="width: 98%; height: 100%; margin-top: 1em; margin-bottom: 1em; padding: 6px 6px; font-size: 1em; border-radius: .5em"
+                    name="name" id="name" required>
+    
+                <label for="age">Age</label>
+                <input
+                    style="width: 98%; height: 100%; margin-top: 1em; margin-bottom: 1em; padding: 6px 6px; font-size: 1em; border-radius: .5em"
+                    type="number" name="age" id="age">
+    
+                <label for="telephone_number">Telephone Number</label>
+                <input
+                    style="width: 98%; height: 100%; margin-top: 1em; margin-bottom: 1em; padding: 6px 6px; font-size: 1em; border-radius: .5em"
+                    name="telephone_number" id="telephone" required>
+    
+                <label for="gender">Gender</label>
+                <select
+                    style="width: 99.5%; height: 100%; margin-top: 1em; margin-bottom: 1em; padding: 6px 6px; font-size: 1em; border-radius: .5em"
+                    name="gender" id="gender">
+                    <option value="disabled" selected>Choose your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+    
+                <legend style="margin-bottom: 1em;">ID Type</legend>
+                <div class="select_id">
+                    <input type="radio" name="id_type" id="id_type" required>
+                    <label for="id_national">National ID</label>
+                    <input type="radio" name="id_type" id="id_type">
+                    <label for="id_national">Passeport</label>
+                    <input type="radio" name="id_type" id="id_type" style="margin-bottom: 1.7em;">
+                    <label for="id_national">Other</label>
+    
+                    <div class="upload" style="margin-bottom: 1em; border-radius: .5em">
+                        <label for="img">Upload your ID:</label>
+                        <input type="file" id="img" name="img" accept="image/*">
+                    </div>
+                </div>
+    
+                <label for="id_number">ID number</label>
+                <input
+                    style="width: 98%; height: 100%; margin-top: 1em; margin-bottom: 2em; padding: 6px 6px; font-size: 1em; border-radius: .5em"
+                    type="number" name="id_number" id="id_number" required>
+    
+                <button
+                    style="display: flex; justify-content: center; margin: auto; font-size: 1.2em; padding: 0.5em; border-radius: 1.2em;"
+                    type="submit">SUBMIT</button>
+            </form>
+        </center>
+
+    </section>
+
+</body>
+
+</html>
